@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Reporter]" parallel="tests">
+  <listeners>
+    <listener class-name="com.reporter.Listeners"/>
+  </listeners>
+  <test name="ReporterTest2(failed)" parallel="tests">
+    <classes>
+      <class name="scripts.Script02">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="test7"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- scripts.Script02 -->
+      <class name="scripts.Script01">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- scripts.Script01 -->
+    </classes>
+  </test> <!-- ReporterTest2(failed) -->
+  <test name="ReporterTest1(failed)" parallel="tests">
+    <classes>
+      <class name="scripts.Script02">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- scripts.Script02 -->
+      <class name="scripts.Script01">
+        <methods>
+          <include name="test3"/>
+          <include name="test4"/>
+          <include name="quitBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- scripts.Script01 -->
+    </classes>
+  </test> <!-- ReporterTest1(failed) -->
+</suite> <!-- Failed suite [Reporter] -->

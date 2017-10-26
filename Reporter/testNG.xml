@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Reporter" parallel="tests" thread-count="2">
+	<listeners>
+		<listener class-name="com.reporter.Listeners"></listener>
+	</listeners>
+	<test name="ReporterTest1">
+		<classes>
+			<class name="scripts.Script01" />
+		</classes>
+	</test>
+	<test name="ReporterTest2">
+		<classes>
+			<class name="scripts.Script02" />
+		</classes>
+	</test>
+</suite>
