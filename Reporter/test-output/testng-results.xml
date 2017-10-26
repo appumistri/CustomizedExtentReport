@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" total="8" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Reporter" duration-ms="64047" started-at="2017-10-25T19:57:07Z" finished-at="2017-10-25T19:58:11Z">
+    <groups>
+    </groups>
+    <test name="ReporterTest2" duration-ms="35461" started-at="2017-10-25T19:57:07Z" finished-at="2017-10-25T19:57:42Z">
+      <class name="scripts.Script02">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:scripts.Script02@5792a0]" name="launchBrowser" is-config="true" duration-ms="14876" started-at="2017-10-26T01:27:07Z" finished-at="2017-10-26T01:27:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="test5()[pri:0, instance:scripts.Script02@5792a0]" name="test5" duration-ms="5433" started-at="2017-10-26T01:27:22Z" finished-at="2017-10-26T01:27:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method status="PASS" signature="test6()[pri:0, instance:scripts.Script02@5792a0]" name="test6" duration-ms="4397" started-at="2017-10-26T01:27:28Z" finished-at="2017-10-26T01:27:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method status="FAIL" signature="test7()[pri:0, instance:scripts.Script02@5792a0]" name="test7" duration-ms="54" started-at="2017-10-26T01:27:32Z" finished-at="2017-10-26T01:27:32Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at scripts.Script02.test7(Script02.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+        <test-method status="PASS" signature="test8()[pri:0, instance:scripts.Script02@5792a0]" name="test8" duration-ms="547" started-at="2017-10-26T01:27:36Z" finished-at="2017-10-26T01:27:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test8 -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:scripts.Script02@5792a0]" name="quitBrowser" is-config="true" duration-ms="5664" started-at="2017-10-26T01:27:37Z" finished-at="2017-10-26T01:27:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- scripts.Script02 -->
+    </test> <!-- ReporterTest2 -->
+    <test name="ReporterTest1" duration-ms="64047" started-at="2017-10-25T19:57:07Z" finished-at="2017-10-25T19:58:11Z">
+      <class name="scripts.Script01">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:scripts.Script01@17e2f02]" name="launchBrowser" is-config="true" duration-ms="43400" started-at="2017-10-26T01:27:07Z" finished-at="2017-10-26T01:27:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:scripts.Script01@17e2f02]" name="test1" duration-ms="811" started-at="2017-10-26T01:27:50Z" finished-at="2017-10-26T01:27:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:scripts.Script01@17e2f02]" name="test2" duration-ms="4725" started-at="2017-10-26T01:27:51Z" finished-at="2017-10-26T01:27:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="FAIL" signature="test3()[pri:0, instance:scripts.Script01@17e2f02]" name="test3" duration-ms="1182" started-at="2017-10-26T01:27:56Z" finished-at="2017-10-26T01:27:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at scripts.Script01.test3(Script01.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="FAIL" signature="test4()[pri:0, instance:scripts.Script01@17e2f02]" name="test4" duration-ms="3549" started-at="2017-10-26T01:28:05Z" finished-at="2017-10-26T01:28:09Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at scripts.Script01.test4(Script01.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:scripts.Script01@17e2f02]" name="quitBrowser" is-config="true" duration-ms="1465" started-at="2017-10-26T01:28:09Z" finished-at="2017-10-26T01:28:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- scripts.Script01 -->
+    </test> <!-- ReporterTest1 -->
+  </suite> <!-- Reporter -->
+</testng-results>

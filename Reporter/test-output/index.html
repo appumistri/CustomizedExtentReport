@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Reporter">
+              <span class="suite-name border-failed">Reporter</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Reporter">
+                    <span>D:\Software's\Automation\Reporter\testNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Reporter">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Reporter">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Reporter">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Reporter">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Reporter">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Reporter">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods, 3 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Reporter" class="hide-methods failed suite-Reporter"> (hide)</a> <!-- hide-methods failed suite-Reporter -->
+                      <a href="#" panel-name="suite-Reporter" class="show-methods failed suite-Reporter"> (show)</a> <!-- show-methods failed suite-Reporter -->
+                    </span>
+                    <div class="method-list-content failed suite-Reporter">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Reporter" title="scripts.Script01" hash-for-method="test3">test3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Reporter" title="scripts.Script01" hash-for-method="test4">test4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Reporter" title="scripts.Script02" hash-for-method="test7">test7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Reporter -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Reporter" class="hide-methods passed suite-Reporter"> (hide)</a> <!-- hide-methods passed suite-Reporter -->
+                      <a href="#" panel-name="suite-Reporter" class="show-methods passed suite-Reporter"> (show)</a> <!-- show-methods passed suite-Reporter -->
+                    </span>
+                    <div class="method-list-content passed suite-Reporter">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Reporter" title="scripts.Script01" hash-for-method="test1">test1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Reporter" title="scripts.Script01" hash-for-method="test2">test2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Reporter" title="scripts.Script02" hash-for-method="test5">test5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Reporter" title="scripts.Script02" hash-for-method="test6">test6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Reporter" title="scripts.Script02" hash-for-method="test8">test8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Reporter -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Reporter" class="panel Reporter">
+          <div class="suite-Reporter-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">scripts.Script02</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test7">
+                  </a> <!-- test7 -->
+                  <span class="method-name">test7</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at scripts.Script02.test7(Script02.java:40)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reporter-class-failed -->
+          <div class="suite-Reporter-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">scripts.Script01</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test3">
+                  </a> <!-- test3 -->
+                  <span class="method-name">test3</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at scripts.Script01.test3(Script01.java:40)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test4">
+                  </a> <!-- test4 -->
+                  <span class="method-name">test4</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at scripts.Script01.test4(Script01.java:46)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reporter-class-failed -->
+          <div class="suite-Reporter-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scripts.Script02</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test5">
+                  </a> <!-- test5 -->
+                  <span class="method-name">test5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test6">
+                  </a> <!-- test6 -->
+                  <span class="method-name">test6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test8">
+                  </a> <!-- test8 -->
+                  <span class="method-name">test8</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reporter-class-passed -->
+          <div class="suite-Reporter-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scripts.Script01</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test1">
+                  </a> <!-- test1 -->
+                  <span class="method-name">test1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test2">
+                  </a> <!-- test2 -->
+                  <span class="method-name">test2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reporter-class-passed -->
+        </div> <!-- panel Reporter -->
+        <div panel-name="test-xml-Reporter" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Software's\Automation\Reporter\testNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Reporter&quot; parallel=&quot;tests&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.reporter.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;ReporterTest1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;scripts.Script01&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ReporterTest1 --&gt;
+  &lt;test name=&quot;ReporterTest2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;scripts.Script02&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ReporterTest2 --&gt;
+&lt;/suite&gt; &lt;!-- Reporter --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Reporter" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Reporter</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ReporterTest1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ReporterTest2 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Reporter" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Reporter</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Reporter" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Reporter</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Reporter');
+function tableData_Reporter() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test5')
+data.setCell(0, 2, 'scripts.Script02')
+data.setCell(0, 3, 5433);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test2')
+data.setCell(1, 2, 'scripts.Script01')
+data.setCell(1, 3, 4725);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test6')
+data.setCell(2, 2, 'scripts.Script02')
+data.setCell(2, 3, 4397);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test4')
+data.setCell(3, 2, 'scripts.Script01')
+data.setCell(3, 3, 3549);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test3')
+data.setCell(4, 2, 'scripts.Script01')
+data.setCell(4, 3, 1182);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test1')
+data.setCell(5, 2, 'scripts.Script01')
+data.setCell(5, 3, 811);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'test8')
+data.setCell(6, 2, 'scripts.Script02')
+data.setCell(6, 3, 547);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test7')
+data.setCell(7, 2, 'scripts.Script02')
+data.setCell(7, 3, 54);
+window.suiteTableData['Reporter']= { tableData: data, tableDiv: 'times-div-Reporter'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <div id="times-div-Reporter">
+              </div> <!-- times-div-Reporter -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Reporter" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Reporter</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Reporter" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Reporter" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.Script01</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.Script02</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test5</span>
+                <span class="method-start">15629 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test6</span>
+                <span class="method-start">21069 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test7</span>
+                <span class="method-start">25473 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test8</span>
+                <span class="method-start">29239 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">29790 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.Script01</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test1</span>
+                <span class="method-start">43401 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test2</span>
+                <span class="method-start">44215 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test3</span>
+                <span class="method-start">48943 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test4</span>
+                <span class="method-start">58565 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">62556 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
