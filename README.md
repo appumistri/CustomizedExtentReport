@@ -14,4 +14,4 @@ This project demostrates the customization of Extent report, adding external cha
 </ol>
   
   <h4>Demo Report:</h4>
-  ![](appumistri/CustomizedExtentReport/blob/master/demo-report.gif)
+  [](appumistri/CustomizedExtentReport/blob/master/demo-report.gif)
