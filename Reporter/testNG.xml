@@ -1,12 +1,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Reporter">
-	<test name="ReporterTest1">
+<suite name="Reporter" >
+	<test name="Tests">
 		<classes>
 			<class name="tests.Script01" />
-		</classes>
-	</test>
-	<test name="ReporterTest2">
-		<classes>
 			<class name="tests.Script02" />
 		</classes>
 	</test>
