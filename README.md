@@ -13,5 +13,5 @@ This project demostrates the customization of Extent report, adding external cha
   <li>Locate <code>testNG.xml</code> in the project root and run it as <code>TestNG Suite</code></li>
 </ol>
   
-  <h4>Demo Report:</h4>
-  ![](demo-report.gif)
+<h4>Demo Report:</h4>
+![](demo-report.gif)
